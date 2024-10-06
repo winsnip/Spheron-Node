@@ -31,7 +31,7 @@ nano fizzup.sh
 3. Now, copy and transfer the file to your VPS using a secure file transfer method such as scp:
 
 ```
-scp fizzup.sh your_username@your_vps_ip:/root/spheron
+scp fizzup.sh your_username@your_vps_ip:/root
 ```
 
 ## Installation Steps
@@ -69,7 +69,7 @@ docker --version
 After transferring the fizzup.sh setup script to your VPS, execute the following commands to install the node:
 
 ```bash
-mkdir spheron && cd spheron && chmod +x /root/spheron/fizzup.sh && ./fizzup.sh
+chmod +x /root/fizzup.sh && ./fizzup.sh
 ```
 
 ## Checking Logs
